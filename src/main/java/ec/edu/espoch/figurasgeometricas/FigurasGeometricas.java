@@ -15,17 +15,25 @@ public class FigurasGeometricas {
        objCirculo.Radio = 5;
        
        objCirculo.imprimir();
-       double area = objCirculo.determinarAreaCirculo();
-        System.out.println("El area del Circulo es: "+ area);
-       double perimetro = objCirculo.determinarPerimetroCirculo();
-        System.out.println("El perimetro del Circulo es: "+perimetro);
+       
+       double areaCirculo = objCirculo.determinarAreaCirculo();
+        System.out.println("El area del Circulo es: "+ areaCirculo);
+       double perimetroCirculo = objCirculo.determinarPerimetroCirculo();
+        System.out.println("El perimetro del Circulo es: "+perimetroCirculo);
+        
+        //Rectangulo//
+    Rectangulo objRectangulo = new Rectangulo();
+    objRectangulo.baseRec = 10;
+    objRectangulo.alturaRec = 20;
+    
+    objRectangulo.imprimir();
+    
+    double areaRectangulo = objRectangulo.determinarAreaRectangulo();
+        System.out.println("El area del Rectangulo es: "+ areaRectangulo);
+       double perimetroRectangulo = objRectangulo.determinarPerimetroRectangulo();
+        System.out.println("El perimetro del Rectangulo es: "+perimetroRectangulo);
+    
     }
-    
-    
-    //Rectagulo//
-    Rectangulo objrRectangulo = new Rectangulo();
-    
-    
     
     
 }
