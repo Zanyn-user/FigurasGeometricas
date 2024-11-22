@@ -1,16 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+
 
 package ec.edu.espoch.figurasgeometricas;
 
-/**
- *
- * @author User
- */
+import ec.edu.espoch.figurasgeometricas.clases.Circulo;
+
+
 public class FigurasGeometricas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Circulo objCirculo = new Circulo();
+       objCirculo.Radio = 5;
+       
+       objCirculo.imprimir();
+       double area = objCirculo.determinarArea();
+        System.out.println("El area del Circulo es: "+ area);
+       double perimetro = objCirculo.determinarPerimetro();
+        System.out.println("El perimetro del Circulo es: "+perimetro);
     }
 }
