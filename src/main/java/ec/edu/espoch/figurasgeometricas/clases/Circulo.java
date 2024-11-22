@@ -8,11 +8,11 @@ public class Circulo {
         System.out.println("El radio en cm del Circulo es: "+Radio);
     }
 
-    public double determinarArea() {
+    public double determinarAreaCirculo() {
         return (3.1416) * (Radio * Radio);
     }
     
-    public double determinarPerimetro(){
+    public double determinarPerimetroCirculo(){
         return 2*(3.1416)*(Radio);
     }
 }
