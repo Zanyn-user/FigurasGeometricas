@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ec.edu.espoch.figurasgeometricas.clases;
+  
+   package ec.edu.espoch.figurasgeometricas.clases;
 
-/**
- *
- * @author SO-LAB1-PC21
- */
-public class Triangulo {
+
+   public class Triangulo {
     
-}
+    public double base;
+    public double altura;
+    public double tipoTriangulo;
+  
+ }
+  
+ 

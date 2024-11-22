@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ec.edu.espoch.figurasgeometricas.clases;
 
-/**
- *
- * @author SO-LAB1-PC21
- */
+
 public class Cuadrado {
     
+     public double longitud;
+     
+     public void imprimir (){
+         System.out.println("La longitud de sus lados en centimetros del Cuadrado es :"+longitud);
+     }
+     
+     public double determinarAreaCuadrado (){
+         return (longitud * longitud);
+     }
+     
+     public double determinarPerimetroCuadrado (){
+         return (longitud *4);
+     }
+     
 }
