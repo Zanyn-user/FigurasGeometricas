@@ -37,8 +37,7 @@ public class FigurasGeometricas {
         
         
         //Cuadrado//
-    Cuadrado objCuadrado =new Cuadrado();
-    objCuadrado.longitud = 6;
+    Cuadrado objCuadrado =new Cuadrado(6);
     
     objCuadrado.imprimir();
     
@@ -50,9 +49,8 @@ public class FigurasGeometricas {
         
         //Triangulo//
         
-     Triangulo objTriangulo = new Triangulo();
-     objTriangulo.altura=2;
-     objTriangulo.base=2;
+     Triangulo objTriangulo = new Triangulo(2,2);
+     
      
      
      objTriangulo.imprimir();
