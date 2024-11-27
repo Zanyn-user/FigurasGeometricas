@@ -5,6 +5,7 @@ package ec.edu.espoch.figurasgeometricas;
 import ec.edu.espoch.figurasgeometricas.clases.Circulo;
 import ec.edu.espoch.figurasgeometricas.clases.Cuadrado;
 import ec.edu.espoch.figurasgeometricas.clases.Rectangulo;
+import ec.edu.espoch.figurasgeometricas.clases.Triangulo;
 
 
 public class FigurasGeometricas {
@@ -45,8 +46,34 @@ public class FigurasGeometricas {
         System.out.println("El area del Cuadrado es:"+areaCuadrado);
         double perimetroCuadrado =objCuadrado.determinarPerimetroCuadrado();
         System.out.println("El perimetro del Cuadrado es:"+perimetroCuadrado);
-    
+        
+        
+        //Triangulo//
+        
+     Triangulo objTriangulo = new Triangulo();
+     objTriangulo.altura=2;
+     objTriangulo.base=2;
+     
+     
+     objTriangulo.imprimir();
+     
+     double areaTriangulo =objTriangulo.determinarAreaTriangulo();
+            System.out.println("El area del Triangulo es:"+areaTriangulo);
+     double perimetroTriangulo = objTriangulo.calcularPerimetroTriangulo();
+            System.out.println("El perimetro del Triangulo es:"+perimetroTriangulo);
+     double hipotenusa= objTriangulo.calcularHipotenusaTriangulo();
+            System.out.println("La hipotenusa del triangulo es:"+hipotenusa);
+     String figuraTriangulo =objTriangulo.tipoTriangulo();
+            System.out.println("El tipo de triangulo es:"+ figuraTriangulo);
+            
+     
+              
+     
+             
+             
+     
+     
     }
     
+ }
     
-}
