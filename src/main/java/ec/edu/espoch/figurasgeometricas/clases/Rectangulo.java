@@ -5,6 +5,12 @@ package ec.edu.espoch.figurasgeometricas.clases;
 public class Rectangulo {
      public double baseRec;
      public double alturaRec;
+
+    public Rectangulo(double baseRec, double alturaRec) {
+        this.baseRec = baseRec;
+        this.alturaRec = alturaRec;
+    }
+     
      
      
      public void imprimir (){

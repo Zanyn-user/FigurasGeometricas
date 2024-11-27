@@ -3,6 +3,11 @@ package ec.edu.espoch.figurasgeometricas.clases;
 public class Circulo {
 
     public double Radio;
+
+    public Circulo(double Radio) {
+        this.Radio = Radio;
+    }
+    
     
     public void imprimir(){
         System.out.println("El radio en cm del Circulo es: "+Radio);

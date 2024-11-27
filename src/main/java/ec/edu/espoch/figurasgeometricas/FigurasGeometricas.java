@@ -13,8 +13,7 @@ public class FigurasGeometricas {
     public static void main(String[] args) {
         
         //Circulo//
-       Circulo objCirculo = new Circulo();
-       objCirculo.Radio = 5;
+       Circulo objCirculo = new Circulo(5);
        
        objCirculo.imprimir();
        
@@ -24,10 +23,7 @@ public class FigurasGeometricas {
         System.out.println("El perimetro del Circulo es: "+perimetroCirculo);
         
         //Rectangulo//
-    Rectangulo objRectangulo = new Rectangulo();
-    objRectangulo.baseRec = 10;
-    objRectangulo.alturaRec = 20;
-    
+    Rectangulo objRectangulo = new Rectangulo(10,20);
     objRectangulo.imprimir();
     
     double areaRectangulo = objRectangulo.determinarAreaRectangulo();
